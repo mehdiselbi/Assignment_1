@@ -7,5 +7,4 @@ openai
 tiktoken
 black
 langchain-community
-python-dotenv
 langchain-openai
