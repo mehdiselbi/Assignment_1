@@ -7,12 +7,12 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain_community.llms import openai
 
 class Agent:
-    def __init__(self, openai_api_key:str | None = None) -> None:
+    def __init__(self, openai_api_key:str) -> None:
         """
         Initialize the Agent with an OpenAI API key.
         
         Parameters:
-        openai_api_key (str | None): The OpenAI API key used for authentication with OpenAI services.
+        openai_api_key (str): The OpenAI API key used for authentication with OpenAI services.
         
         Outputs:
         None
