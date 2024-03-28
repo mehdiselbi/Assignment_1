@@ -4,9 +4,6 @@ import streamlit as st
 from streamlit_chat import message
 from agent import Agent
 
-#Load .env file
-load_dotenv()
-
 st.set_page_config(page_title="Assignment 1 ChatPDF Interactive Document Conversational Interface")
 
 
